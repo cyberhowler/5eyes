@@ -9,7 +9,7 @@
 # ║    ╚═════╝     ╚══════╝   ╚═╝   ╚══════╝╚══════╝                            ║
 # ║                                                                              ║
 # ║          FULL-SPECTRUM INTELLIGENCE & SECURITY TOOLKIT  v1.0                ║
-# ║                        Developed by: cyph3r (RG)                            ║
+# ║                        Developed by: cyberhowler (RG)                            ║
 # ╚══════════════════════════════════════════════════════════════════════════════╝
 #
 # WHAT'S NEW IN v1.0:
@@ -270,7 +270,7 @@ def _login_screen() -> None:
     for line in banner.splitlines():
         print(_c(Fore.CYAN, line))
     print(_c(Fore.YELLOW, "  Full-Spectrum Intelligence & Security Toolkit  v1.0"))
-    print(_c(Fore.WHITE,   "  cyph3r (RG)  ·  AES-256-GCM  ·  PBKDF2-SHA256"))
+    print(_c(Fore.WHITE,   "  cyberhowler (RG)  ·  AES-256-GCM  ·  PBKDF2-SHA256"))
     _sep()
 
 def _migrate(cfg: dict) -> None:
