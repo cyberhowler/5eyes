@@ -1,0 +1,59 @@
+# ── VAULT DATA — NEVER commit these ────────────────────
+.5eyes_vault/
+*.enote
+*.enc
+config.json
+ops.log
+integrity.json
+
+# ── EXPORTS & TEST OUTPUTS ─────────────────────────────
+exports/
+osint_*.txt
+subdomains_*.txt
+stego_*.png
+*_report.html
+
+# ── TEST RUNNER — keep local only ──────────────────────
+5eyes_test.py
+5eyes_test_runner.py
+*_test.py
+test_*.py
+
+# ── PYTHON ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+env/
+venv/
+.venv/
+.python-version
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# ── OS ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+
+# ── EDITORS ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── SECURITY — never commit ────────────────────────────
+*.pem
+*.key
+secrets.txt
+passwords.txt
+wordlists/
+rockyou.txt

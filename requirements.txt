@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════╗
+# ║  5EYES v1.0 — Python Dependencies                   ║
+# ╚══════════════════════════════════════════════════════╝
+#
+# Standard install:
+#   pip install -r requirements.txt
+#
+# Kali / Parrot / Debian (externally managed):
+#   pip install -r requirements.txt --break-system-packages
+
+# ── REQUIRED ───────────────────────────────────────────
+pycryptodome>=3.19.0        # AES-256-GCM encryption
+requests>=2.31.0            # HTTP requests (recon, HIBP, OSINT)
+colorama>=0.4.6             # Coloured terminal output (cross-platform)
+
+# ── OPTIONAL (features degrade gracefully without these)
+Pillow>=10.0.0              # EXIF extraction + steganography (PNG)
+dnspython>=2.4.0            # Richer DNS lookups (A/AAAA/MX/TXT/NS/SOA)
+qrcode>=7.4.2               # QR code generation (requires Pillow)
