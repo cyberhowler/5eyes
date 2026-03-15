@@ -33,7 +33,7 @@
 
 ```bash
 #create env
-python3 -m venv/bin/activate
+python3 -m venv venv
 
 #go to env
 source venv/bin/activate
