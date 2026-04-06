@@ -41,7 +41,7 @@ source venv/bin/activate
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/5eyes.git
+git clone https://github.com/cyberhowler/5eyes.git
 cd 5eyes
 
 # 2. Install dependencies
